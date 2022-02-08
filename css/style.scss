@@ -1,0 +1,564 @@
+@import "parts/topnav";
+#owl{
+    .item{
+        height:600px;
+    }
+    .im1{
+        background-image: url("../media/image-1.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .desCon{
+            max-width: 60%;
+            h1{
+                font-weight: bold;
+                text-align: center;
+                margin:0;
+                padding:0;
+             }
+             .bef{
+                 text-align: center;
+                 font-size:45px;
+             }
+             p{
+                 text-align: center;
+                 font-size: 21px;
+             }
+        }
+    
+    }
+    .im2{
+        background-image: url("../media/image-2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .desCon{
+            max-width: 60%;
+            padding-left:15px;
+            h1{
+                font-weight: bold;
+                margin:0;
+                font-size:42px;
+                padding:0;
+             }
+             .bef{
+                 font-size:45px;
+             }
+             p{
+                 font-size: 21px;
+             }
+        }
+    }
+
+}
+#cardSec{
+    position: relative;
+    top: -15px;
+    z-index:1;
+    .card{
+        transition: all 1s;
+        img{
+            background-color: rgba(183, 192, 183,0.3);
+            height:100px;width:100px;
+            border-radius: 50%;
+        }
+        h5{
+            font-weight: bold;
+        }
+        p{
+            color:gray;
+        }
+    }
+    .card:hover{
+        background-color:#2FAC94;;
+    }
+    .card:hover img{
+        background-color: white;
+    }
+    .card:hover h5{
+        color:white;
+    }
+    .card:hover p{
+        color:white;
+    }
+    .card:hover i{
+        color:white;
+    }
+}
+#learn{
+    .learn-im-con{
+        position: relative;
+        img:last-child{
+            position: absolute;
+            bottom:-40px;
+            left: -14px;
+            border-top:12px solid white;
+            border-right:12px solid white;
+        }
+    }
+    .learn-p1{
+        color: #777777;
+        font-size:14px;
+        padding: 0;
+        line-height: 10px;
+
+    }
+    .learn-p1::after{
+        content: "......";
+        color:green;
+        display:block;
+        font-size:51px;
+    }
+    h2{
+        font-size:39px;
+    }
+    p:nth-child(3){
+        color: #777777;
+        line-height: 30px;
+    }
+    p:nth-child(3)+p{
+        line-height: 0;
+        margin-top: 40px;
+    }
+    a{
+        border:2px solid black;
+        padding:12px;
+        border-radius: 25px;
+        color:#2FAC94;
+        padding:15px 15px 15px 2px;
+        text-decoration: none; 
+        p{
+            display: inline;
+            font-weight: bold;
+            margin-left:20px;
+            font-size:20px;
+        }
+        i{
+            background-color: #2FAC94;
+            color:white;
+            border-radius: 50%;
+            padding:12px;
+            transition: all 0.6s;
+        }
+        
+    }
+    a:hover i{
+        background-color: white;
+        color: #2FAC94;
+    }
+    
+}
+#edrive{
+        .edrive-title{
+            p:first-child{
+                font-size:12px;
+                letter-spacing: 2px;
+                line-height: 10px;
+            }
+            p:first-child::after{
+                content:"......";
+                display:block;
+                color: #2fac94;
+                font-size:41px;
+            }
+        }
+        
+        h2{
+            font-weight: bold;
+            font-size:41px;
+        }
+        p{
+            letter-spacing: 2px;
+        }
+        .no-gutters{
+            p{
+                letter-spacing: 0;
+                font-size:18px;
+                a:hover{
+                    text-decoration: none;
+                }
+            } 
+        }
+        p.active a{
+            color:#2FAC94 !important;
+        }
+        p.sec a{
+            color: whitesmoke;
+            transition: color 0.4s;
+        }
+        p.sec:hover a{
+            color: #2FAC94 !important;
+        }
+        #owl2{
+            .item{
+                color:red !important;
+                background:black  !important;
+                .card{
+                    .tit{
+                        color:rgb(161, 155, 155);
+                        font-size:16px;
+                    }
+                }
+            }
+            
+        }
+
+    }
+#help{
+    background-image: url("../media/bg-3.jpg");
+    background-size: cover;
+    h2{
+        font-size:45px;
+    }
+    p{
+        font-size:21px;
+        span{
+            color:#2FAC94;
+        }
+    }
+}
+#dCourse{
+    .im{
+        position:relative;
+    }
+    .anim{
+        animation-name: car;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes car {
+        0%{
+            left:-50px;
+        }
+        100%{
+           left:30px;
+        }
+    }
+    .aft{
+        font-size:13px;
+        color:rgb(126, 122, 122);
+        letter-spacing: 1px;
+        line-height: 11px;
+    }
+    .aft::after{
+        content:"......";
+        display: block;
+        color:green;
+        font-size:41px;
+    }
+    h2{
+        font-weight: bold;
+        font-size:43px;
+        color:rgb(0, 0, 0);
+    }
+    p.sec{
+        color:#8c9092;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .media-body p{
+        @extend p.sec;
+    }
+}
+#countUp{
+    .item{
+        width:100%;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .cCurd{
+            background-color: white;
+            padding:14px;
+            border-bottom:2px solid rgb(160, 154, 154);
+            width:150px;
+            height:150px;
+            img{
+                margin:0;
+                padding:0;
+                height:150px;
+
+            }
+        }
+        h2{
+            font-size:54px;
+        }
+        p{
+            font-size:21px;
+        }
+    }
+    
+}
+#booking{
+    .enTitle{
+        font-size:11px;
+        line-height: 11px;
+    }
+    .enTitle::after{
+        content:".......";
+        display:block;
+        color: green;
+        font-size:24px;
+    }
+    h2{
+        font-size: 31px;
+        font-weight:bold;
+        margin-bottom:25px;
+    }
+    .nextT{
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    .marker{
+        line-height:5px;
+        font-size:11px;
+    }
+    .marker::before{
+        content:"✓";
+        margin-right:8px;
+        color:green;
+        font-size:18px;
+        font-weight: bold;
+    }
+    .fTitle{
+        font-size:12px;
+    }
+    input::placeholder{
+        color:rgb(165, 154, 154);
+        font-size:11px;
+    }
+}
+
+#work{
+    background-image: url("../media/icon-12.png");
+    background-repeat: no-repeat;
+    .p1{
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .p1::after{
+        content:".......";
+        display:block;
+        color: green;
+        font-size:24px;
+    }
+    .p2{
+        font-weight: 14px;
+        color: #555555
+    }
+    .circle{
+        width:250px;
+        height:250px;
+        border:2px solid green;
+        outline:2px solid blue;
+        border-radius: 50%;
+        h5{
+            font-size:17px;
+        }
+        p{
+            font-size:12px;
+        }
+    }
+}
+#guid{
+   p{
+       font-size:11px
+   }
+}
+#ctest{
+    background-color:#EDF6F5;
+    p:first-child{
+        font-size:13px;
+    }
+    p:last-child{
+        font-size: 22px;
+        color:#777777
+    }
+    .carou-4{
+        img{
+            width:210px;
+        }
+    }
+    .media{
+        .media-body{
+            h6{
+                display: inline-block;
+            }
+            i{
+                color:goldenrod
+            }
+            p{
+                font-size:16px;
+                margin-top:21px;
+            }
+        }
+        .img-cont{
+            img{
+                height:60px;
+                width: 60px;
+            }
+            p{
+                line-height: 8px;
+                font-size:15px;
+            }
+        }
+    }
+}
+#neup{
+    p.a{
+        color:black;
+        font-size:11px;
+        line-height: 9px;
+    }
+    p.a:after{
+        content:"......";
+        display:block;
+        font-size:22px;
+        color:#24A88E;
+    }
+    h2{
+        font-size:28px;
+    }
+    p.b{
+        font-size:12px;
+    }
+    .ccard{
+        .dbtn{
+            background:#24A88E;
+            font-size: 10px;
+            padding:8px;
+        }
+        .far{
+            color:rgb(88, 83, 83);
+            font-size:13px;
+        }
+        .nnext{
+            font-size:12px;
+            padding:8px;
+        }
+        a{
+            color:black;
+            h3{
+                font-size:17px;
+                font-weight:bold;
+            }
+        }
+        a:hover{
+            text-decoration: none;
+            color: #24A88E;
+        }
+        .cbtn{
+            border:2px solid rgb(204, 201, 201);
+            font-size:13px;
+            padding:8px 20px;
+            transition: all 0.7s;
+            i{
+                color: #24A88E;
+            }
+        }
+        .cbtn:hover{
+            background: #caeee7;
+            color: #24A88E;
+        }
+    }
+}
+#ftop{
+    img{
+        width:100%;
+    }
+    p{
+        color: rgb(182, 173, 182);
+        font-size:12px;
+        margin-bottom: 6px;
+
+    }
+    p.first{
+        
+        margin-top:30px;
+    }
+    i{
+        color:white;
+        transition:all 0.4s;
+    }
+    i:hover{
+        color:green;
+        cursor:pointer;
+    }
+    h6{
+        font-size: 17px;
+    }
+    h6::after{
+        content:"........";
+        display: block;
+        color:aqua
+    }
+    input[type='email']{
+        background-color:rgb(117, 113, 113);
+    }
+    input[type='email']::placeholder{
+        color:rgb(190, 187, 187);
+        font-size:11px;
+    }
+    .custom-bg{
+        background:#24A88E;
+    }
+    a{
+        color: rgb(182, 173, 182);
+    }
+    a:hover{
+        text-decoration: none;
+        color:white;
+    }
+}
+footer{
+    font-size:12px;
+    .first{
+        border-right:1px solid white;
+        padding:0px 8px;
+    }
+    a{
+        color:white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #24A88E;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:575px){
+    #owl{
+        h1{
+            font-size:30px;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size:15px !important;
+        }
+    }
+}
+@media screen and (min-width:576px){
+    #owl{
+        h1{
+            font-size:42px !important;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size:18px !important;
+        }
+    }
+}
+@media screen and (min-width:768px){
+   
+}
+@media screen and (min-width:992px){
+    
+}
+@media screen and (min-width:1200px){
+   
+}

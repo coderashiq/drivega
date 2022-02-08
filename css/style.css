@@ -1,0 +1,679 @@
+@charset "UTF-8";
+#navtop {
+  background-color: black;
+  color: white;
+}
+
+#navtop i {
+  color: #3c923c;
+}
+
+#navtop .col-md-4 {
+  border-right: 1px solid #695f5f;
+}
+
+#owl .item {
+  height: 600px;
+}
+
+#owl .im1 {
+  background-image: url("../media/image-1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#owl .im1 .desCon {
+  max-width: 60%;
+}
+
+#owl .im1 .desCon h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#owl .im1 .desCon .bef {
+  text-align: center;
+  font-size: 45px;
+}
+
+#owl .im1 .desCon p {
+  text-align: center;
+  font-size: 21px;
+}
+
+#owl .im2 {
+  background-image: url("../media/image-2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#owl .im2 .desCon {
+  max-width: 60%;
+  padding-left: 15px;
+}
+
+#owl .im2 .desCon h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 42px;
+  padding: 0;
+}
+
+#owl .im2 .desCon .bef {
+  font-size: 45px;
+}
+
+#owl .im2 .desCon p {
+  font-size: 21px;
+}
+
+#cardSec {
+  position: relative;
+  top: -15px;
+  z-index: 1;
+}
+
+#cardSec .card {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#cardSec .card img {
+  background-color: rgba(183, 192, 183, 0.3);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#cardSec .card h5 {
+  font-weight: bold;
+}
+
+#cardSec .card p {
+  color: gray;
+}
+
+#cardSec .card:hover {
+  background-color: #2FAC94;
+}
+
+#cardSec .card:hover img {
+  background-color: white;
+}
+
+#cardSec .card:hover h5 {
+  color: white;
+}
+
+#cardSec .card:hover p {
+  color: white;
+}
+
+#cardSec .card:hover i {
+  color: white;
+}
+
+#learn .learn-im-con {
+  position: relative;
+}
+
+#learn .learn-im-con img:last-child {
+  position: absolute;
+  bottom: -40px;
+  left: -14px;
+  border-top: 12px solid white;
+  border-right: 12px solid white;
+}
+
+#learn .learn-p1 {
+  color: #777777;
+  font-size: 14px;
+  padding: 0;
+  line-height: 10px;
+}
+
+#learn .learn-p1::after {
+  content: "......";
+  color: green;
+  display: block;
+  font-size: 51px;
+}
+
+#learn h2 {
+  font-size: 39px;
+}
+
+#learn p:nth-child(3) {
+  color: #777777;
+  line-height: 30px;
+}
+
+#learn p:nth-child(3) + p {
+  line-height: 0;
+  margin-top: 40px;
+}
+
+#learn a {
+  border: 2px solid black;
+  padding: 12px;
+  border-radius: 25px;
+  color: #2FAC94;
+  padding: 15px 15px 15px 2px;
+  text-decoration: none;
+}
+
+#learn a p {
+  display: inline;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#learn a i {
+  background-color: #2FAC94;
+  color: white;
+  border-radius: 50%;
+  padding: 12px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+#learn a:hover i {
+  background-color: white;
+  color: #2FAC94;
+}
+
+#edrive .edrive-title p:first-child {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 10px;
+}
+
+#edrive .edrive-title p:first-child::after {
+  content: "......";
+  display: block;
+  color: #2fac94;
+  font-size: 41px;
+}
+
+#edrive h2 {
+  font-weight: bold;
+  font-size: 41px;
+}
+
+#edrive p {
+  letter-spacing: 2px;
+}
+
+#edrive .no-gutters p {
+  letter-spacing: 0;
+  font-size: 18px;
+}
+
+#edrive .no-gutters p a:hover {
+  text-decoration: none;
+}
+
+#edrive p.active a {
+  color: #2FAC94 !important;
+}
+
+#edrive p.sec a, #edrive #dCourse .media-body p a, #dCourse .media-body #edrive p a {
+  color: whitesmoke;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+#edrive p.sec:hover a, #edrive #dCourse .media-body p:hover a, #dCourse .media-body #edrive p:hover a {
+  color: #2FAC94 !important;
+}
+
+#edrive #owl2 .item {
+  color: red !important;
+  background: black  !important;
+}
+
+#edrive #owl2 .item .card .tit {
+  color: #a19b9b;
+  font-size: 16px;
+}
+
+#help {
+  background-image: url("../media/bg-3.jpg");
+  background-size: cover;
+}
+
+#help h2 {
+  font-size: 45px;
+}
+
+#help p {
+  font-size: 21px;
+}
+
+#help p span {
+  color: #2FAC94;
+}
+
+#dCourse .im {
+  position: relative;
+}
+
+#dCourse .anim {
+  -webkit-animation-name: car;
+          animation-name: car;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes car {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 30px;
+  }
+}
+
+@keyframes car {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 30px;
+  }
+}
+
+#dCourse .aft {
+  font-size: 13px;
+  color: #7e7a7a;
+  letter-spacing: 1px;
+  line-height: 11px;
+}
+
+#dCourse .aft::after {
+  content: "......";
+  display: block;
+  color: green;
+  font-size: 41px;
+}
+
+#dCourse h2 {
+  font-weight: bold;
+  font-size: 43px;
+  color: black;
+}
+
+#dCourse p.sec, #dCourse .media-body p {
+  color: #8c9092;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#countUp .item {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#countUp .item .cCurd {
+  background-color: white;
+  padding: 14px;
+  border-bottom: 2px solid #a09a9a;
+  width: 150px;
+  height: 150px;
+}
+
+#countUp .item .cCurd img {
+  margin: 0;
+  padding: 0;
+  height: 150px;
+}
+
+#countUp .item h2 {
+  font-size: 54px;
+}
+
+#countUp .item p {
+  font-size: 21px;
+}
+
+#booking .enTitle {
+  font-size: 11px;
+  line-height: 11px;
+}
+
+#booking .enTitle::after {
+  content: ".......";
+  display: block;
+  color: green;
+  font-size: 24px;
+}
+
+#booking h2 {
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#booking .nextT {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+#booking .marker {
+  line-height: 5px;
+  font-size: 11px;
+}
+
+#booking .marker::before {
+  content: "✓";
+  margin-right: 8px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#booking .fTitle {
+  font-size: 12px;
+}
+
+#booking input::-webkit-input-placeholder {
+  color: #a59a9a;
+  font-size: 11px;
+}
+
+#booking input:-ms-input-placeholder {
+  color: #a59a9a;
+  font-size: 11px;
+}
+
+#booking input::-ms-input-placeholder {
+  color: #a59a9a;
+  font-size: 11px;
+}
+
+#booking input::placeholder {
+  color: #a59a9a;
+  font-size: 11px;
+}
+
+#work {
+  background-image: url("../media/icon-12.png");
+  background-repeat: no-repeat;
+}
+
+#work .p1 {
+  font-size: 11px;
+  line-height: 10px;
+}
+
+#work .p1::after {
+  content: ".......";
+  display: block;
+  color: green;
+  font-size: 24px;
+}
+
+#work .p2 {
+  font-weight: 14px;
+  color: #555555;
+}
+
+#work .circle {
+  width: 250px;
+  height: 250px;
+  border: 2px solid green;
+  outline: 2px solid blue;
+  border-radius: 50%;
+}
+
+#work .circle h5 {
+  font-size: 17px;
+}
+
+#work .circle p {
+  font-size: 12px;
+}
+
+#guid p {
+  font-size: 11px;
+}
+
+#ctest {
+  background-color: #EDF6F5;
+}
+
+#ctest p:first-child {
+  font-size: 13px;
+}
+
+#ctest p:last-child {
+  font-size: 22px;
+  color: #777777;
+}
+
+#ctest .carou-4 img {
+  width: 210px;
+}
+
+#ctest .media .media-body h6 {
+  display: inline-block;
+}
+
+#ctest .media .media-body i {
+  color: goldenrod;
+}
+
+#ctest .media .media-body p {
+  font-size: 16px;
+  margin-top: 21px;
+}
+
+#ctest .media .img-cont img {
+  height: 60px;
+  width: 60px;
+}
+
+#ctest .media .img-cont p {
+  line-height: 8px;
+  font-size: 15px;
+}
+
+#neup p.a {
+  color: black;
+  font-size: 11px;
+  line-height: 9px;
+}
+
+#neup p.a:after {
+  content: "......";
+  display: block;
+  font-size: 22px;
+  color: #24A88E;
+}
+
+#neup h2 {
+  font-size: 28px;
+}
+
+#neup p.b {
+  font-size: 12px;
+}
+
+#neup .ccard .dbtn {
+  background: #24A88E;
+  font-size: 10px;
+  padding: 8px;
+}
+
+#neup .ccard .far {
+  color: #585353;
+  font-size: 13px;
+}
+
+#neup .ccard .nnext {
+  font-size: 12px;
+  padding: 8px;
+}
+
+#neup .ccard a {
+  color: black;
+}
+
+#neup .ccard a h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#neup .ccard a:hover {
+  text-decoration: none;
+  color: #24A88E;
+}
+
+#neup .ccard .cbtn {
+  border: 2px solid #ccc9c9;
+  font-size: 13px;
+  padding: 8px 20px;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#neup .ccard .cbtn i {
+  color: #24A88E;
+}
+
+#neup .ccard .cbtn:hover {
+  background: #caeee7;
+  color: #24A88E;
+}
+
+#ftop img {
+  width: 100%;
+}
+
+#ftop p {
+  color: #b6adb6;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+#ftop p.first {
+  margin-top: 30px;
+}
+
+#ftop i {
+  color: white;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#ftop i:hover {
+  color: green;
+  cursor: pointer;
+}
+
+#ftop h6 {
+  font-size: 17px;
+}
+
+#ftop h6::after {
+  content: "........";
+  display: block;
+  color: aqua;
+}
+
+#ftop input[type='email'] {
+  background-color: #757171;
+}
+
+#ftop input[type='email']::-webkit-input-placeholder {
+  color: #bebbbb;
+  font-size: 11px;
+}
+
+#ftop input[type='email']:-ms-input-placeholder {
+  color: #bebbbb;
+  font-size: 11px;
+}
+
+#ftop input[type='email']::-ms-input-placeholder {
+  color: #bebbbb;
+  font-size: 11px;
+}
+
+#ftop input[type='email']::placeholder {
+  color: #bebbbb;
+  font-size: 11px;
+}
+
+#ftop .custom-bg {
+  background: #24A88E;
+}
+
+#ftop a {
+  color: #b6adb6;
+}
+
+#ftop a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  font-size: 12px;
+}
+
+footer .first {
+  border-right: 1px solid white;
+  padding: 0px 8px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #24A88E;
+}
+
+@media screen and (max-width: 575px) {
+  #owl h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #owl p {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #owl h1 {
+    font-size: 42px !important;
+    letter-spacing: 2px;
+  }
+  #owl p {
+    font-size: 18px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
